@@ -2,21 +2,21 @@
   <div class="container-fluid">
     <div class="card my-3">
       <div class="card-body">
-        <h3><i class="far fa-bookmark text-warning"></i> Comic Manager</h3>
+        <h3><i class="fas fa-cog text-primary"></i> Settings</h3>
       </div>
     </div>
-    <nav class="mb-3">
+    <nav>
       <ol class="breadcrumb">
-        <li class="breadcrumb-item active">Home</li>
+        <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+        <li class="breadcrumb-item active">Settings</li>
       </ol>
     </nav>
-    <p><router-link to="/settings"><i class="fas fa-cog text-primary"></i> Settings</router-link></p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'landing-page',
+  name: 'settings-page',
   components: {}
 }
 </script>
