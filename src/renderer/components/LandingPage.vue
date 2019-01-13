@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid">
-    <div class="card">
+    <div class="card my-3">
       <div class="card-body">
-        This is some text within a card body.
+        <h3><i class="far fa-bookmark text-warning"></i> Comic Manager</h3>
       </div>
     </div>
   </div>
@@ -21,5 +21,5 @@ export default {
 </script>
 
 <style>
-  /* CSS */
+/* CSS */
 </style>
